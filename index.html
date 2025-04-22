@@ -24,6 +24,7 @@
     href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Upright:wght@300;400;500;600;700&family=Diphylleia&family=Raleway:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap"
     rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -167,10 +168,11 @@
         </div>
       </div>
       <div class="row">
-        <!-- single-well start-->
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <div class="well-left">
 
+        <!-- single-well start-->
+        <div data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="well-left" >
             <div class="single-well">
               <img src="images/brand/brand_guide1.jpg" alt="brand_guide">
             </div>
@@ -181,9 +183,7 @@
                 <a href="BUDDY/guide/guide.html" target="_blank">BI&#47;BX Guide</a>
               </p>
             </div>
-
           </div>
-
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="well-left">
@@ -213,6 +213,9 @@
             </div>
           </div>
         </div>
+      </div>
+      
+      <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="well-left">
             <div class="single-well">
@@ -256,6 +259,7 @@
           </div>
         </div>
       </div>
+    </div>
       <!-- <div class="spacing"></div> -->
 
     </div>
@@ -271,7 +275,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-duration="2000">
         <!-- single-well start-->
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="well-left">
@@ -291,9 +295,7 @@
               </p>
               </div>
             </div>
-
           </div>
-
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="well-left">
@@ -487,7 +489,7 @@
         <!-- single-well start-->
         <div class="col-md-5 col-sm-6 col-xs-12">
           <div class="well-left">
-            <div class="single-well">
+            <div class="single-well" data-aos="zoom-in" data-aos-duration="1500">
                 <img src="images/about/about_collage.jpg" alt="about_collage">
             </div>
           </div>
@@ -778,7 +780,7 @@
         </div>
         <div class="row">
           <!-- Start contact icon column -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up" data-aos-duration="2000">
             <div class="contact-icon text-center">
               <div class="single-icon">
                 <i class="fa fa-mobile"></i>
@@ -789,7 +791,7 @@
             </div>
           </div>
           <!-- Start contact icon column -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
             <div class="contact-icon text-center">
               <div class="single-icon">
                 <i class="fa fa-envelope-o"></i>
@@ -801,7 +803,7 @@
             </div>
           </div>
           <!-- Start contact icon column -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
             <div class="contact-icon text-center">
               <div class="single-icon">
                 <i class="fa fa-map-marker"></i>
@@ -862,6 +864,10 @@
   <script src="lib/appear/jquery.appear.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
